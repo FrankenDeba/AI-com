@@ -1,5 +1,13 @@
+.carousel_container {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  /* background-image: url("graph.png"); */
+}
+
 .carousel_container .img__holder {
-  width: 250px;
+  /* width: 250px; */
 }
 
 .carousel_container .img__holder img {
@@ -7,8 +15,29 @@
   height: 100%;
 }
 
-.carousel_container {
+/* .carousel_container {
   width: 350px;
   display: flex;
   justify-content: center;
+} */
+
+.carousel__bg {
+  height: 700px;
+  position: absolute;
+  top: -120px;
+  right: -150px;
+  z-index: -500;
+}
+
+.carousel__bg img {
+  height: 100%;
+}
+
+.carousel_container .carousel ul.slider {
+  width: 150px;
+}
+
+.carousel__main {
+  display: flex;
+  flex-direction: column;
 }
